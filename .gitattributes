@@ -1,0 +1,14 @@
+# Store text files with LF line endings, so Windows and Linux checkouts match.
+* text=auto eol=lf
+
+# Windows scripts keep CRLF.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# Binary files.
+*.docx binary
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jar binary

@@ -1,0 +1,20 @@
+# Build output
+target/
+build/
+.dart_tool/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# Local secrets and environment files
+.env
+.env.*
+*.key
+*.pem
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
